@@ -1,0 +1,13 @@
+/* grid inspired by https://gridsetapp.com/specs/fonmon/?gridset=show*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FAF8F6;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 247px repeat(3, 30px 124px) 30px 247px 1fr;
+}

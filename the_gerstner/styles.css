@@ -1,0 +1,11 @@
+/* grid inspired by https://gridsetapp.com/specs/gerstner/?gridset=show */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 1fr repeat(5, 140px 30px) 140px 1fr
+}
